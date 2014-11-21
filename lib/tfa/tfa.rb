@@ -119,4 +119,25 @@ class TFA::TFA
 
   end
 
+  def format_tfa
+
+    Dir["_data/*.yml"].each do |f|
+
+      next if f =~ /main.yml/
+
+      config=::YAML.load_file(f)
+      if f=~ /providers/ || f=~/backup/
+        File.open(f, 'w') do |file|
+          file.write(config.to_yaml(indentation:4))
+        end
+      else
+        File.open(f, 'w') do |file|
+          file.write(config.to_yaml(indentation:6))
+        end
+      end
+
+    end
+
+  end
+
 end
