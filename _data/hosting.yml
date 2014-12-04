@@ -99,6 +99,13 @@ websites:
       tfa: true
       software: true
       doc: http://knowledgelayer.softlayer.com/procedure/configure-portal-account-one-time-password-access-manage
+-     name: SpeedIT Solutions
+      url: https://www.speedit.org/
+      img: speedit.png
+      tfa: true
+      software: true
+      twitter: SpeedIT_S
+      doc: https://www.speedit.org/faq/#accordian_item_937
 -     name: Squarespace
       url: https://squarespace.com/
       twitter: squarespace

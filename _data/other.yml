@@ -1,5 +1,10 @@
 ---
 websites:
+-     name: Aerohive Networks
+      url: https://www.aerohive.com/
+      img: aerohive.png
+      tfa: false
+      twitter: aerohive
 -     name: Automater
       url: http://automater.pl/en/
       img: automater.png
@@ -18,6 +23,11 @@ websites:
       sms: true
       software: true
       doc: https://kb.meraki.com/knowledge_base/log-in-security-configuring-account-and-password-policies-for-dashboard-administrators
+-     name: Clipper
+      url: https://www.clippercard.com
+      twitter: BayAreaClipper
+      img: clipper.png
+      tfa: false
 -     name: Cloudinary
       url: http://cloudinary.com
       twitter: cloudinary
@@ -90,3 +100,10 @@ websites:
       twitter: Zendesk
       img: zendesk.png
       tfa: false
+-     name: PhraseApp
+      url: https://phraseapp.com
+      twitter: PhraseApp
+      img: phraseapp.png
+      software: true
+      tfa: true
+      doc: http://blog.phraseapp.com/post/97556438392/extra-secure-user-accounts-in-phraseapp-with

@@ -56,6 +56,7 @@ module TFA
       providers << provider_config
 
       sort!(providers)
+      update_truthiness!(providers)
 
       File.open(file, 'w') do |file|
         file.write(config.to_yaml(indentation:4))

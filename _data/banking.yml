@@ -22,6 +22,12 @@ websites:
       twitter: AFCU
       img: americafirstcu.png
       tfa: false
+-     name: Bank Central Asia (BCA)
+      url: http://www.bca.co.id/en/individual/individual.jsp
+      img: bankcentralasia.png
+      tfa: true
+      hardware: true
+      doc: http://www.bca.co.id/en/individual/produk_dan_layanan/e-banking/klikbca/klikbca-keybca/klikbca-keybca.jsp
 -     name: Bank of America
       url: https://www.bankofamerica.com/
       img: bankofamerica.png
@@ -68,7 +74,7 @@ websites:
       sms: true
       phone: true
       email: true
-      doc: https://mobilebanking.chase.com/Public/Docs/Faq?nodeId=1&itemId=2
+      doc: https://twofactorauth.org/notes/chase/
 -     name: CIBC
       url: http://www.cibc.ca
       twitter: cibc
@@ -91,6 +97,11 @@ websites:
             text: Available only for credit cards, not for savings accounts. By providing
                   your phone number, you are automatically opted in.
       doc: https://www.discover.com/credit-cards/help-center/faqs/enhancing-account-security.html
+-     name: everbank.com
+      url: https://everbank.com
+      twitter: everbank
+      img: everbank.png
+      tfa: false
 -     name: Fairwinds
       url: https://www.fairwinds.org
       img: fairwinds.png
@@ -136,12 +147,16 @@ websites:
       url: http://www.lloydsbank.com/
       twitter: AskLloydsBank
       img: lloydsbank.png
-      tfa: false
+      tfa: true
+      phone: true
+      doc: http://www.lloydsbank.com/help-guidance/security/authentication-procedure.asp
 -     name: Natwest UK
       url: https://www.natwest.com/personal.ashx
       img: natwest.png
-      tfa: false
+      tfa: true
+      hardware: true
       twitter: NatWest_Help
+      doc: http://www.natwest.com/personal/online-banking/g1/banking-safely-online/card-reader.ashx
 -     name: Patelco Credit Union
       url: https://www.patelco.org/
       twitter: PatelcoPays
@@ -194,6 +209,11 @@ websites:
       hardware: true
       software: true
       doc: http://hjalp.swedbank.se/logga-in/index.htm
+-     name: TARGOBANK
+      url: https://www.targobank.de/
+      img: targobank.png
+      tfa: false
+      twitter: TARGOBANK
 -     name: TBC Bank
       url: http://www.tbcbank.ge
       twitter: JSCTBCBANK
@@ -217,6 +237,7 @@ websites:
       img: usaa.png
       tfa: true
       sms: true
+      hardware: true
       software: true
       doc: https://www.usaa.com/inet/pages/security_token_logon_options
 -     name: UW Credit Union

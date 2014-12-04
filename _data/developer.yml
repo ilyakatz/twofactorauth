@@ -26,6 +26,13 @@ websites:
       twitter: bitbucket
       img: bitbucket.png
       tfa: false
+-     name: Code Climate
+      url: https://codeclimate.com
+      twitter: codeclimate
+      img: codeclimate.png
+      tfa: true
+      software: true
+      doc: http://docs.codeclimate.com/article/228-enabling-disabling-two-factor-authentication
 -     name: Codeship
       url: https://codeship.io/
       twitter: codeship

@@ -108,6 +108,7 @@ class TFA::TFA
     websites << site_config
 
     sort!(websites)
+    update_truthiness!(websites)
 
     File.open(file, 'w') do |file|
       file.write(config.to_yaml(indentation:6))

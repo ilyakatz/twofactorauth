@@ -9,7 +9,7 @@ websites:
 -   name: Backblaze
     url: http://www.backblaze.com/
     twitter: backblaze
-    img: backblaze.gif
+    img: backblaze.png
     tfa: false
 -   name: Bitcasa
     url: http://www.bitcasa.com/
@@ -64,6 +64,7 @@ websites:
     sms: true
     phone: true
     software: true
+    hardware: true
     doc: http://www.google.com/intl/en-US/landing/2step/features.html
 -   name: iCloud
     url: https://www.icloud.com
@@ -122,10 +123,12 @@ websites:
     doc: http://itsoluti0ns.wordpress.com/2013/04/29/enable-2-way-verification-on-synology-nas/
 -   name: Tresorit
     url: https://tresorit.com/
-    twitter: Tresorit
     img: tresorit.png
-    tfa: false
-    status: https://twitter.com/Tresorit/status/471306129197518848
+    tfa: true
+    sms: true
+    software: true
+    email: true
+    doc: https://support.tresorit.com/entries/104192996-How-to-set-up-two-step-verification
 -   name: Wuala
     url: https://wuala.com/
     twitter: Wuala

@@ -21,5 +21,26 @@ module TFA
       end
     end
 
+    def update_truthiness!(store)
+
+      if store.is_a?(Hash)
+        store.each do |k, v|
+          puts v.class
+          if v.is_a?(TrueClass)
+            store[k] = "Yes"
+          elsif v.is_a?(FalseClass)
+            store[k] = "No"
+          elsif v.is_a?(Hash)
+            update_truthiness!(v)
+          end
+        end
+      elsif store.is_a?(Array)
+        store.each do |elem|
+          update_truthiness!(elem)
+        end
+      end
+
+    end
+
   end
 end

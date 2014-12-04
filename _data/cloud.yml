@@ -33,8 +33,8 @@ websites:
       tfa: true
       software: true
       exceptions:
-            text: 'Jun 5, 2014: Currently in beta. Create a support ticket to request
-                  2FA added to your organization'
+            text: Currently in beta as of June 5th 2014. Create a support ticket to
+                  request 2FA added to your organization
       doc: https://support.cloud.engineyard.com/entries/40538256-Two-factor-authentication
 -     name: Google Cloud Platform
       url: https://cloud.google.com
@@ -43,6 +43,7 @@ websites:
       sms: true
       software: true
       phone: true
+      hardware: true
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
 -     name: Heroku
       url: https://www.heroku.com/

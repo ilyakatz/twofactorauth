@@ -20,6 +20,7 @@ websites:
       sms: true
       phone: true
       software: true
+      hardware: true
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
 -     name: GMX
       url: https://www.gmx.com/

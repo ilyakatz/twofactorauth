@@ -25,7 +25,7 @@ websites:
       tfa: true
       software: true
       hardware: true
-      doc: http://twofactorauth.org/notes/fidelity/
+      doc: https://twofactorauth.org/notes/fidelity/
 -     name: Merrill Edge
       url: https://www.merrilledge.com/
       twitter: MerrillLynch
@@ -43,7 +43,12 @@ websites:
       url: https://www.optionshouse.com
       tfa: true
       software: true
-      doc: http://www.optionshouse.com/faq/authenticator/
+      doc: https://www.optionshouse.com/faq/authenticator/
+-     name: OptionsXpress
+      url: http://www.optionsxpress.com/
+      twitter: optionsXpress
+      img: optionsxpress.png
+      tfa: false
 -     name: Personal Capital
       url: https://www.personalcapital.com
       twitter: personalcapital
@@ -73,7 +78,7 @@ websites:
       img: tradeking.png
       tfa: false
 -     name: Vanguard
-      url: http://www.vanguard.com/
+      url: https://www.vanguard.com/
       twitter: Vanguard_Group
       img: vanguard.png
       tfa: false

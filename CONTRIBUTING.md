@@ -84,6 +84,25 @@ id with the `.yml` extension.
 
 ## New Sites
 
+There are two way to add new sites
+
+* Running a script that will guide you through the process of adding a new site
+* Manually updating files
+
+### Guided
+
+1. Run the script
+```bash
+ruby ./addsite.rb
+```
+
+2. Follow instructions
+
+3. Changes will be made to corresponding file
+
+4. Commit changes and create pull request
+
+### Manual
 First and foremost, make sure the new site meets our [definition
 requirements](#a-note-on-definitions) for Two Factor Auth.
 
@@ -97,12 +116,12 @@ websites:
     url: https://www.site.com/
     twitter: SiteTwitter
     img: site.png
-    tfa: Yes
-    sms: Yes
-    email: Yes
-    phone: Yes
-    software: Yes
-    hardware: Yes
+    tfa: true
+    sms: true
+    email: true
+    phone: true
+    software: true
+    hardware: true
     doc: <link to site 2FA documentation>
 ```
 Fields `name:`, `url:`, `img:`, `tfa:` are required for all entries. If available, `twitter:` should be included. If a site provides tfa, `doc:` field is strongly encouraged. Other fields should be included as appropriate.
@@ -120,9 +139,9 @@ website. There are 4 ways to customize how it is displayed:
       url: https://www.site.com/
       twitter: SiteTwitter
       img: site.png
-      tfa: Yes
-      sms: Yes
-      exceptions: Yes
+      tfa: true
+      sms: true
+      exceptions: true
       doc: <link to site 2FA documentation>
    ```
 2. The message can be replaced with a custom set of words:
@@ -132,8 +151,8 @@ website. There are 4 ways to customize how it is displayed:
       url: https://www.site.com/
       twitter: SiteTwitter
       img: site.png
-      tfa: Yes
-      sms: Yes
+      tfa: true
+      sms: true
       exceptions:
           text: "Specific text goes here."
       doc: <link to site 2FA documentation>
@@ -146,10 +165,10 @@ website. There are 4 ways to customize how it is displayed:
       url: https://www.site.com/
       twitter: SiteTwitter
       img: site.png
-      tfa: Yes
-      sms: Yes
+      tfa: true
+      sms: true
       exceptions:
-          link: Yes
+          link: true
       doc: <link to site 2FA documentation>
    ```
 4. 2 and 3 can be combined into:
@@ -159,10 +178,10 @@ website. There are 4 ways to customize how it is displayed:
       url: https://www.site.com/
       twitter: SiteTwitter
       img: site.png
-      tfa: Yes
-      sms: Yes
+      tfa: true
+      sms: true
       exceptions:
-          link: Yes
+          link: true
           text: "Specific text can go here as well."
       doc: <link to site 2FA documentation>
    ```
@@ -186,7 +205,7 @@ website. There are 4 ways to customize how it is displayed:
   it, then use:
 
   ```yml
-  tfa: no
+  tfa: No
   status: <url to documentation>
   ```
 
@@ -211,18 +230,18 @@ For context, check out the discussion in [#242][242].
 Rather than split out providers on the main page, we elected to keep the main
 page clean and add another page dedicated to 2fa providers.
 
-To add a new provider simply add to the `providers.yml` file, marking `Yes`
+To add a new provider simply add to the `providers.yml` file, marking `true`
 where appropriate.
 
 ```yml
   - name: Company Name
     url: https://example.com
     img: company.png
-    sms: Yes
-    email: Yes
-    phone: Yes
-    software: Yes
-    hardware: Yes
+    sms: true
+    email: true
+    phone: true
+    software: true
+    hardware: true
 ```
 
 [242]: https://github.com/jdavis/twofactorauth/issues/242

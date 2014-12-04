@@ -48,6 +48,7 @@ websites:
       sms: true
       software: true
       phone: true
+      hardware: true
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
 -     name: Vimeo
       url: https://vimeo.com/

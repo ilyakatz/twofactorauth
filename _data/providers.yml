@@ -34,6 +34,10 @@ providers:
     url: https://getclef.com
     img: clef.png
     software: true
+-   name: CryptoPhoto
+    url: https://www.cryptophoto.com
+    img: cryptophoto.png
+    software: true
 -   name: Duo Security
     url: https://www.duosecurity.com
     img: duo.png
@@ -48,6 +52,10 @@ providers:
 -   name: Google Authenticator
     url: http://www.google.com/landing/2step/
     img: google.png
+    software: true
+-   name: Latch
+    url: https://latch.elevenpaths.com
+    img: latch.png
     software: true
 -   name: LaunchKey
     url: https://launchkey.com/
@@ -72,6 +80,7 @@ providers:
 -   name: Rublon
     url: https://www.rublon.com/
     img: rublon.png
+    email: true
     software: true
 -   name: SAASPASS
     url: https://www.saaspass.com/
