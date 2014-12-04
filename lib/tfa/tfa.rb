@@ -122,11 +122,15 @@ class TFA::TFA
 
   def format_tfa
 
+    require 'yaml'
+    require "#{(__FILE__)}/../helpers"
+
     Dir["_data/*.yml"].each do |f|
 
       next if f =~ /main.yml/
 
       config=::YAML.load_file(f)
+      update_truthiness!(config)
       if f=~ /providers/ || f=~/backup/
         File.open(f, 'w') do |file|
           file.write(config.to_yaml(indentation:4))

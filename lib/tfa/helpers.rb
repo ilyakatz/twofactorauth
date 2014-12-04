@@ -32,6 +32,10 @@ module TFA
             store[k] = "No"
           elsif v.is_a?(Hash)
             update_truthiness!(v)
+          elsif v.is_a?(Array)
+            v.each do |h|
+              update_truthiness!(h)
+            end
           end
         end
       elsif store.is_a?(Array)
