@@ -3,96 +3,96 @@ websites:
 -     name: Ally Bank
       url: http://www.ally.com/
       img: allybank.png
-      tfa: true
-      sms: true
-      email: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      email: 'Yes'
       doc: http://www.ally.com/messages/sms/index.html
 -     name: Altra Federal Credit Union
       url: https://www.altra.org/
       twitter: AltraCU
       img: altrafcu.png
-      tfa: false
+      tfa: 'No'
 -     name: American Express
       url: https://www.americanexpress.com/
       twitter: AmericanExpress
       img: americanexpress.png
-      tfa: false
+      tfa: 'No'
 -     name: America First Credit Union
       url: https://www.americafirst.com/
       twitter: AFCU
       img: americafirstcu.png
-      tfa: false
+      tfa: 'No'
 -     name: Bank Central Asia (BCA)
       url: http://www.bca.co.id/en/individual/individual.jsp
       img: bankcentralasia.png
-      tfa: true
-      hardware: true
+      tfa: 'Yes'
+      hardware: 'Yes'
       doc: http://www.bca.co.id/en/individual/produk_dan_layanan/e-banking/klikbca/klikbca-keybca/klikbca-keybca.jsp
 -     name: Bank of America
       url: https://www.bankofamerica.com/
       img: bankofamerica.png
-      tfa: true
-      sms: true
-      hardware: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      hardware: 'Yes'
       doc: https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/safepass.go
 -     name: Barclays
       url: http://www.barclays.co.uk/
       img: barclays.png
-      tfa: true
-      hardware: true
-      software: true
+      tfa: 'Yes'
+      hardware: 'Yes'
+      software: 'Yes'
       doc: http://ask.barclays.co.uk/help/online_banking/whatis_pinsentry
 -     name: Barclays US
       url: https://www.banking.barclaysus.com/index.html
       img: barclays.png
-      tfa: false
+      tfa: 'No'
       twitter: Barclays
 -     name: BMO Harris Bank
       url: https://www.bmoharris.com/
       twitter: BMOHarrisBank
       img: bmoharris.png
-      tfa: false
+      tfa: 'No'
 -     name: Boeing Employee Credit Union
       url: https://www.becu.org/
       twitter: BECU
       img: becu.png
-      tfa: false
+      tfa: 'No'
 -     name: Capital One
       url: https://www.capitalone.com/
       twitter: CapitalOne
       img: capitalone.png
-      tfa: false
+      tfa: 'No'
 -     name: Capital One 360
       url: https://home.capitalone360.com/
       twitter: CapitalOne360
       img: capitalone360.png
-      tfa: false
+      tfa: 'No'
 -     name: Chase
       url: https://www.chase.com/
       img: chase.png
-      tfa: true
-      sms: true
-      phone: true
-      email: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      phone: 'Yes'
+      email: 'Yes'
       doc: https://twofactorauth.org/notes/chase/
 -     name: CIBC
       url: http://www.cibc.ca
       twitter: cibc
       img: cibc.png
-      tfa: false
+      tfa: 'No'
       status: https://www.cibc.com/ca/features/banking-enhancements.html?sf3204759=1
 -     name: Citibank
       url: https://online.citibank.com/US/Welcome.c
       twitter: Citibank
       img: citibank.png
-      tfa: false
+      tfa: 'No'
 -     name: Discover
       url: https://www.discover.com/
       img: discover.png
-      tfa: true
-      sms: true
-      email: true
-      phone: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      email: 'Yes'
+      phone: 'Yes'
       exceptions:
             text: Available only for credit cards, not for savings accounts. By providing
                   your phone number, you are automatically opted in.
@@ -101,156 +101,156 @@ websites:
       url: https://everbank.com
       twitter: everbank
       img: everbank.png
-      tfa: false
+      tfa: 'No'
 -     name: Fairwinds
       url: https://www.fairwinds.org
       img: fairwinds.png
-      tfa: true
-      sms: true
-      email: true
-      phone: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      email: 'Yes'
+      phone: 'Yes'
       doc: https://www.fairwinds.org/inside/privacy/security_we.asp#multifactor-auth
 -     name: Fifth Third Bank
       url: https://www.53.com/
       twitter: fifththird
       img: fifththird.png
-      tfa: false
+      tfa: 'No'
 -     name: First Tech Federal Credit Union
       url: https://www.firsttechfed.com/
       img: firsttechfcu.png
-      tfa: true
-      hardware: true
-      software: true
+      tfa: 'Yes'
+      hardware: 'Yes'
+      software: 'Yes'
       doc: https://www.firsttechfed.com/OnlineServices/bankonlinesecurely/SecurityKey
 -     name: GE Capital Bank
       url: https://www.gecapitalbank.com
       twitter: GECapital
       img: GECapitalBank.png
-      tfa: false
+      tfa: 'No'
 -     name: Halifax
       url: http://www.halifax.co.uk
       twitter: AskHalifaxBank
       img: halifax.png
-      tfa: false
+      tfa: 'No'
 -     name: HSBC
       url: https://www.hsbc.com
       img: hsbc.png
-      tfa: true
-      hardware: true
+      tfa: 'Yes'
+      hardware: 'Yes'
       doc: https://www.hsbc.co.uk/1/2/customer-support/online-banking-security/secure-key
 -     name: LendingClub
       url: https://www.lendingclub.com/
       twitter: lendingclub
       img: lendingclub.png
-      tfa: false
+      tfa: 'No'
 -     name: Lloyds Bank
       url: http://www.lloydsbank.com/
       twitter: AskLloydsBank
       img: lloydsbank.png
-      tfa: true
-      phone: true
+      tfa: 'Yes'
+      phone: 'Yes'
       doc: http://www.lloydsbank.com/help-guidance/security/authentication-procedure.asp
 -     name: Natwest UK
       url: https://www.natwest.com/personal.ashx
       img: natwest.png
-      tfa: true
-      hardware: true
+      tfa: 'Yes'
+      hardware: 'Yes'
       twitter: NatWest_Help
       doc: http://www.natwest.com/personal/online-banking/g1/banking-safely-online/card-reader.ashx
 -     name: Patelco Credit Union
       url: https://www.patelco.org/
       twitter: PatelcoPays
       img: patelco.png
-      tfa: true
-      sms: true
-      email: true
-      phone: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      email: 'Yes'
+      phone: 'Yes'
       doc: https://www.patelco.org/Privacy-Security/Protection
 -     name: PenFed
       url: https://www.penfed.org/
       twitter: PenFed
       img: penfed.png
-      tfa: false
+      tfa: 'No'
 -     name: PNC Bank
       url: https://www.pnc.com/
       twitter: pncnews
       img: pncbank.png
-      tfa: false
+      tfa: 'No'
 -     name: RBC Royal Bank
       url: http://www.rbcroyalbank.com
       twitter: RBC_Canada
       img: rbc.png
-      tfa: false
+      tfa: 'No'
 -     name: San Francisco Fire Credit Union
       url: https://www.sffirecu.org
       twitter: SFFireCU
       img: sffirecu.png
-      tfa: false
+      tfa: 'No'
 -     name: SEB
       url: http://www.seb.se/pow/default.asp
       img: seb.png
-      tfa: true
-      hardware: true
+      tfa: 'Yes'
+      hardware: 'Yes'
       doc: http://www.seb.se/pow/wcp/index.asp?ss=/pow/wcp/templates/sebcollection.cfmc.asp%3FDUID%3DDUID_623697DCF55C4576C1256DEF00637BE3
 -     name: Simple
       url: https://www.simple.com/
       twitter: simple
       img: simple.png
-      tfa: false
+      tfa: 'No'
 -     name: SunTrust
       url: https://www.suntrust.com/
       twitter: SunTrust
       img: suntrust.png
-      tfa: false
+      tfa: 'No'
 -     name: Swedbank
       url: https://www.swedbank.se/
       img: swedbank.png
-      tfa: true
-      hardware: true
-      software: true
+      tfa: 'Yes'
+      hardware: 'Yes'
+      software: 'Yes'
       doc: http://hjalp.swedbank.se/logga-in/index.htm
 -     name: TARGOBANK
       url: https://www.targobank.de/
       img: targobank.png
-      tfa: false
+      tfa: 'No'
       twitter: TARGOBANK
 -     name: TBC Bank
       url: http://www.tbcbank.ge
       twitter: JSCTBCBANK
       img: tbcbank.png
-      tfa: true
-      sms: true
-      software: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      software: 'Yes'
       doc: http://old.tbcbank.ge/en/private/banking/tbc_digipass/
 -     name: TD Bank
       url: https://www.tdbank.com
       twitter: TDBank_US
       img: tdbank.png
-      tfa: false
+      tfa: 'No'
 -     name: US Bank
       url: https://www.usbank.com/
       twitter: usbank
       img: usbank.png
-      tfa: false
+      tfa: 'No'
 -     name: USAA
       url: https://www.usaa.com/
       img: usaa.png
-      tfa: true
-      sms: true
-      hardware: true
-      software: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      hardware: 'Yes'
+      software: 'Yes'
       doc: https://www.usaa.com/inet/pages/security_token_logon_options
 -     name: UW Credit Union
       url: http://www.uwcu.org/
       img: uwcu.png
       twitter: uwcu
-      tfa: true
-      sms: true
-      software: true
-      phone: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      software: 'Yes'
+      phone: 'Yes'
       doc: http://www.uwcu.org/OnlineBanking/OnlineSecurity/VerifyU.aspx
 -     name: Wells Fargo
       url: https://www.wellsfargo.com/
       twitter: WellsFargo
       img: wellsfargo.png
-      tfa: false
+      tfa: 'No'

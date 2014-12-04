@@ -4,27 +4,27 @@ websites:
       url: https://amazon.com
       twitter: Amazon
       img: amazon.png
-      tfa: false
+      tfa: 'No'
 -     name: Apple
       url: https://appleid.apple.com
       img: apple.png
-      tfa: true
-      sms: true
-      software: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      software: 'Yes'
       exceptions:
             text: SMS only available on select providers.
       doc: http://support.apple.com/kb/ht5570
 -     name: Comixology
       url: https://www.comixology.com/
       img: comixology.png
-      tfa: false
+      tfa: 'No'
       twitter: comixology
 -     name: eBay
       url: http://ebay.com
       img: ebay.png
-      tfa: true
-      hardware: true
-      software: true
+      tfa: 'Yes'
+      hardware: 'Yes'
+      software: 'Yes'
       exceptions:
             text: While PayPal supports hardware and software 2FA in all locales,
                   eBay only supports 2FA in some locales.
@@ -32,41 +32,41 @@ websites:
 -     name: Etsy
       url: http://www.etsy.com/
       img: etsy.png
-      sms: true
-      tfa: true
+      sms: 'Yes'
+      tfa: 'Yes'
       doc: http://www.etsy.com/help/article/3335
 -     name: Everlane
       url: http://www.everlane.com/
       twitter: everlane
       img: everlane.png
-      tfa: false
+      tfa: 'No'
 -     name: Macy's
       url: http://www.macys.com/
       twitter: macys
       img: macys.png
-      tfa: false
+      tfa: 'No'
 -     name: Newegg
       url: http://www.newegg.com
       twitter: newegg
       img: newegg.png
-      tfa: false
+      tfa: 'No'
 -     name: Target
       url: http://www.target.com/
       twitter: target
       img: target.png
-      tfa: false
+      tfa: 'No'
 -     name: Walgreens
       url: http://www.walgreens.com
       twitter: walgreens
       img: walgreens.png
-      tfa: false
+      tfa: 'No'
 -     name: Walmart
       url: http://www.walmart.com/
       twitter: walmartlabs
       img: walmart.png
-      tfa: false
+      tfa: 'No'
 -     name: Zappos
       url: http://www.zappos.com/
       twitter: Zappos
       img: zappos.png
-      tfa: false
+      tfa: 'No'

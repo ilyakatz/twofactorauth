@@ -4,54 +4,54 @@ websites:
       url: http://grooveshark.com/
       twitter: GroovesharkHelp
       img: grooveshark.png
-      tfa: false
+      tfa: 'No'
 -     name: Hulu
       url: http://www.hulu.com/
       twitter: hulu_support
       img: hulu.png
-      tfa: false
+      tfa: 'No'
 -     name: Last.fm
       url: http://www.last.fm/
       twitter: lastfmsupport
       img: lastfm.png
-      tfa: false
+      tfa: 'No'
 -     name: Netflix
       url: https://netflix.com/
       twitter: Netflixhelps
       img: netflix.png
-      tfa: false
+      tfa: 'No'
 -     name: SoundCloud
       url: https://soundcloud.com/
       twitter: soundcloud
       img: soundcloud.png
-      tfa: false
+      tfa: 'No'
 -     name: Spotify
       url: https://www.spotify.com/
       twitter: spotifycares
       img: spotify.png
-      tfa: false
+      tfa: 'No'
 -     name: Twitch
       url: http://www.twitch.tv/
       twitter: TwitchSupport
       img: twitch.png
-      tfa: false
+      tfa: 'No'
 -     name: Ustream
       url: http://www.ustream.tv/
       twitter: UstreamSupport
       img: ustream.png
-      tfa: false
+      tfa: 'No'
 -     name: YouTube
       url: https://www.youtube.com/
       twitter: youtube
       img: youtube.png
-      tfa: true
-      sms: true
-      software: true
-      phone: true
-      hardware: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      software: 'Yes'
+      phone: 'Yes'
+      hardware: 'Yes'
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
 -     name: Vimeo
       url: https://vimeo.com/
       twitter: vimeo
       img: vimeo.png
-      tfa: false
+      tfa: 'No'

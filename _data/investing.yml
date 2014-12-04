@@ -4,87 +4,87 @@ websites:
       url: https://www.betterment.com/
       twitter: betterment
       img: betterment.png
-      tfa: false
+      tfa: 'No'
 -     name: Charles Schwab
       url: https://www.schwab.com/
       img: charlesschwab.png
-      tfa: true
-      hardware: true
+      tfa: 'Yes'
+      hardware: 'Yes'
       doc: http://www.schwab.com/public/schwab/nn/legal_compliance/schwabsafe/protect_your_account
 -     name: E*Trade
       url: https://www.etrade.com/
       img: etrade.png
-      tfa: true
-      software: true
-      hardware: true
+      tfa: 'Yes'
+      software: 'Yes'
+      hardware: 'Yes'
       doc: https://us.etrade.com/e/t/jumppage/viewjumppage?PageName=secureid_enter#
 -     name: Fidelity Investments
       url: https://www.fidelity.com
       twitter: fidelity
       img: fidelity.png
-      tfa: true
-      software: true
-      hardware: true
+      tfa: 'Yes'
+      software: 'Yes'
+      hardware: 'Yes'
       doc: https://twofactorauth.org/notes/fidelity/
 -     name: Merrill Edge
       url: https://www.merrilledge.com/
       twitter: MerrillLynch
       img: merrilledge.png
-      tfa: false
+      tfa: 'No'
 -     name: MotifInvesting
       url: https://www.motifinvesting.com/
       img: motif.png
-      tfa: true
-      sms: true
-      phone: true
+      tfa: 'Yes'
+      sms: 'Yes'
+      phone: 'Yes'
       doc: https://www.motifinvesting.com/security
 -     name: OptionsHouse
       img: optionshouse.png
       url: https://www.optionshouse.com
-      tfa: true
-      software: true
+      tfa: 'Yes'
+      software: 'Yes'
       doc: https://www.optionshouse.com/faq/authenticator/
 -     name: OptionsXpress
       url: http://www.optionsxpress.com/
       twitter: optionsXpress
       img: optionsxpress.png
-      tfa: false
+      tfa: 'No'
 -     name: Personal Capital
       url: https://www.personalcapital.com
       twitter: personalcapital
       img: personalcapital.png
-      tfa: true
-      email: true
-      phone: true
+      tfa: 'Yes'
+      email: 'Yes'
+      phone: 'Yes'
       doc: https://www.personalcapital.com/safety-and-security
 -     name: Scottrade
       url: https://www.scottrade.com/
       twitter: scottrade
       img: scottrade.png
-      tfa: false
+      tfa: 'No'
 -     name: Sharebuilder
       url: https://www.sharebuilder.com/
       twitter: sharebuilder
       img: sharebuilder.png
-      tfa: false
+      tfa: 'No'
 -     name: TD Ameritrade
       url: https://www.tdameritrade.com
       twitter: TDAmeritrade
       img: tdameritrade.png
-      tfa: false
+      tfa: 'No'
 -     name: TradeKing
       url: https://www.tradeking.com
       twitter: tradeking
       img: tradeking.png
-      tfa: false
+      tfa: 'No'
 -     name: Vanguard
       url: https://www.vanguard.com/
       twitter: Vanguard_Group
       img: vanguard.png
-      tfa: false
+      tfa: 'No'
       status: https://twitter.com/Vanguard_Group/status/499260535360466944
 -     name: Wealthfront
       url: https://www.wealthfront.com/
       twitter: wealthfront
       img: wealthfront.png
-      tfa: false
+      tfa: 'No'
